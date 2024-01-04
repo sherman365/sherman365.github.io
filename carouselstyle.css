@@ -3,28 +3,28 @@
     left: 0;
     position: absolute;
     margin: 0 20%;
-    width: 60%;
-    height: 100%;
+    width: 6%;
+    height: 10%;
     overflow: hidden;
 }
 
 .carousel-container {
     display: flex;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
     flex-shrink: 0;
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     object-fit: cover;
 }
 
