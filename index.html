@@ -31,6 +31,20 @@
         section {
             margin-top: 20px;
         }
+        #image-carousel {
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            max-width: 800px;
+            margin: auto;
+        }
+        .carousel-container {
+            width: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-item {
+            width: 100%;
+        }
         footer {
             margin-top: 20px;
             padding: 10px;
@@ -51,6 +65,17 @@
     <section id="Home">
         <h2>Home</h2>
         <p>This is the home section of The Bull Pen website.</p>
+        <div id="image-carousel">
+            <div class="carousel-container">
+                <img class="carousel-item" src="photos/garden1.JPG" alt="Image 1">
+            </div>
+            <div class="carousel-container">
+                <img class="carousel-item" src="photos/pond1.JPG" alt="Image 2">
+            </div>
+            <div class="carousel-container">
+                <img class="carousel-item" src="photos/pond2.JPG" alt="Image 3">
+            </div>
+        </div>
     </section>
 
     <section id="Availability">
