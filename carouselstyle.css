@@ -11,21 +11,21 @@
 .carousel-container {
     display: flex;
     position: static;
-    width: 30%;
-    height: 30%;
+    width: 90%;
+    height: 90%;
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
     flex-shrink: 0;
-    width: 30%;
-    height: 30%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
 }
 
 .carousel-item img {
-    width: 30%;
-    height: 30%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
 }
 
