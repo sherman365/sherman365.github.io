@@ -97,36 +97,6 @@
     <footer>
         <p>&copy; 2024 The Bull Pen</p>
     </footer>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            let currentIndex = 0;
-            const container = document.getElementById('image-carousel');
-            const items = document.querySelectorAll('.carousel-container');
 
-            function showItem(index) {
-                const newPosition = -index * 100 + '%';
-                container.style.transform = 'translateX(' + newPosition + ')';
-            }
-
-            function next() {
-                currentIndex = (currentIndex + 1) % items.length;
-                showItem(currentIndex);
-            }
-
-            function prev() {
-                currentIndex = (currentIndex - 1 + items.length) % items.length;
-                showItem(currentIndex);
-            }
-
-            document.addEventListener('keydown', function (event) {
-                if (event.key === 'ArrowLeft') {
-                    prev();
-                } else if (event.key === 'ArrowRight') {
-                    next();
-                }
-            });
-        });
-    </script>
 </body>
 </html>
