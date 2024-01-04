@@ -1,8 +1,8 @@
 .carousel {
     top: 0;
     left: 0;
-    position: absolute;
-    margin: 0 20%;
+    position: center;
+    margin: 0 2%;
     width: 6%;
     height: 10%;
     overflow: hidden;
@@ -29,8 +29,8 @@
 }
 
 .carousel-control {
-    width: 40px;
-    height: 40px;
+    width: 4px;
+    height: 4px;
     box-sizing: content-box;
     font-size: 32px;
     color: #fff;
