@@ -24,14 +24,15 @@
 }
 
 .carousel-controls {
-    position: absolute;
+    /*position: absolute;
     top: 50%;
     left: 0;
-    right: 0;
+    right: 0;*/
     display: flex;
     justify-content: space-between;
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);*/
     width: 100%;
+    height: 100%;
     /* z-index: 1; Ensure the controls appear over the images */
 }
 
