@@ -1,8 +1,8 @@
 const carousel = document.querySelector('.carousel');
 const container = document.querySelector('.carousel-container');
 const items = document.querySelectorAll('.carousel-item');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
+const prevBtn = document.querySelector('.carousel-control.prev');
+const nextBtn = document.querySelector('.carousel-control.next');
 
 let index = 0;
 var interval;
