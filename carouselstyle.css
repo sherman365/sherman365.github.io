@@ -1,32 +1,24 @@
 .carousel {
-    top: 0;
-    left: 0;
-    position: static;
-    margin: 0 20%;
-    width: 40%;
-    height: 90%;
+    position: relative;
+    margin: auto;
+    width: 90%;
     overflow: hidden;
 }
 
 .carousel-container {
     display: flex;
-    position: static;
-    width: 90%;
-    height: 90%;
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
     flex-shrink: 0;
-    width: 90%;
-    height: 90%;
+    width: 100%;
     object-fit: contain;
 }
 
 .carousel-item img {
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .carousel-control {
