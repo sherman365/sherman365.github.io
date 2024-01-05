@@ -31,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
-    z-index: 1; /* Ensure the controls appear over the images */
+    /* z-index: 1; Ensure the controls appear over the images */
 }
 
 .carousel-control {
