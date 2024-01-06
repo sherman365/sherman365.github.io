@@ -35,7 +35,7 @@ prevBtn.addEventListener('click', () => {
     }
     clearInterval(interval);
     interval = 0;
-    setTimeout(autoScroll, 5000);
+    setTimeout(autoScroll, 1000);
     updateCarousel();
     setActiveItem();
 });
@@ -47,7 +47,7 @@ nextBtn.addEventListener('click', () => {
     }
     clearInterval(interval);
     interval = 0;
-    setTimeout(autoScroll, 5000);
+    setTimeout(autoScroll, 1000);
     updateCarousel();
     setActiveItem();
 });
