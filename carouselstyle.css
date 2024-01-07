@@ -71,7 +71,8 @@ original script version
 .carousel-item {
     width: 100%;
     display: flex; 
-    justify-content: center; 
+    justify-content: center;
+}
 
 .carousel-item img {
     max-width: 100%; 
