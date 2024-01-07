@@ -25,7 +25,7 @@ function autoScroll() {
         }
         updateCarousel();
         setActiveItem();
-    }, 4000);
+    }, 7000);
 }
 
 prevBtn.addEventListener('click', () => {
@@ -75,7 +75,7 @@ function setActiveItem2() {
     items2[index2].classList.add('active');
 }
 
-function autoScroll() {
+function autoScroll2() {
     if (interval2 != 0) return;
     interval2 = setInterval(() => {
         index2++;
@@ -100,7 +100,7 @@ prevBtn2.addEventListener('click', () => {
 });
 
 nextBtn2.addEventListener('click', () => {
-    index++;
+    index2++;
     if (index2 >= items2.length) {
         index2 = 0;
     }
