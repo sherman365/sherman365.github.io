@@ -3,7 +3,7 @@
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: gold; /* Change this color to your desired one */
+    color: blue; /* Change this color to your desired one */
     font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ nav a {
 
 .carousel-controls {
     display: flex;
-    justify-content: center; /* This centers the controls horizontally */
+    /*justify-content: center;  This centers the controls horizontally */
     align-items: center; /* This centers the controls vertically */
     width: 100%;
     height: 100%;
