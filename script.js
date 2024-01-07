@@ -54,3 +54,62 @@ nextBtn.addEventListener('click', () => {
 
 setActiveItem();
 autoScroll();
+
+                                                                /* carousel 2*/
+
+const carousel2 = document.querySelector('.carousel2');
+const container2 = document.querySelector('.carousel2-container');
+const items2 = document.querySelectorAll('.carousel2-item');
+const prevBtn2 = document.querySelector('.carousel2-control.prev');
+const nextBtn2 = document.querySelector('.carousel2-control.next');
+
+let index2 = 0;
+var interval2;
+
+function updateCarousel2() {
+    container2.style.transform = `translateX(${-index2 * carousel2.offsetWidth}px)`;
+}
+
+function setActiveItem2() {
+    items2.forEach(item2 => item2.classList.remove('active'));
+    items2[index2].classList.add('active');
+}
+
+function autoScroll() {
+    if (interval2 != 0) return;
+    interval2 = setInterval(() => {
+        index2++;
+        if (index2 >= items2.length) {
+            index2 = 0;
+        }
+        updateCarousel2();
+        setActiveItem2();
+    }, 4000);
+}
+
+prevBtn2.addEventListener('click', () => {
+    index2--;
+    if (index2 < 0) {
+        index2 = items2.length - 1;
+    }
+    clearInterval(interval2);
+    interval2 = 0;
+    setTimeout(autoScroll2, 1000);
+    updateCarousel2();
+    setActiveItem2();
+});
+
+nextBtn2.addEventListener('click', () => {
+    index++;
+    if (index2 >= items2.length) {
+        index2 = 0;
+    }
+    clearInterval(interval2);
+    interval2 = 0;
+    setTimeout(autoScroll2, 1000);
+    updateCarousel2();
+    setActiveItem2();
+});
+
+setActiveItem2();
+autoScroll2();
