@@ -1,10 +1,13 @@
+/* Nav styles */
+
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: white; /* Change this color to your desired one */
+    color: black; /* Change this color to your desired one */
     font-weight: bold;
 }
 
+/* Carousel styles */
 
 .carousel {
     position: relative;
