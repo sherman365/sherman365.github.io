@@ -12,14 +12,14 @@ nav a {
 .carousel {
     position: relative;
     margin: auto;
-    width: 90%;
+    width: 95%;
     overflow: hidden;
 }
 
 .carousel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 
