@@ -1,4 +1,4 @@
-/* Nav styles */
+                                                    /* Nav styles */
 
 nav a {
     margin: 0 10px;
@@ -7,7 +7,7 @@ nav a {
     font-weight: bold;
 }
 
-/* Carousel styles */
+                                                    /* Carousel styles */
 
 .carousel {
     position: relative;
@@ -38,7 +38,7 @@ nav a {
 
 .carousel-controls {
     display: flex;
-    /*justify-content: center;  This centers the controls horizontally */
+    justify-content: center; /* This centers the controls horizontally */
     align-items: center; /* This centers the controls vertically */
     width: 100%;
     height: 100%;
@@ -56,6 +56,9 @@ nav a {
     padding: 10px 10px;
     border-radius: 50%;
     cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-control.prev {
