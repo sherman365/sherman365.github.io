@@ -82,7 +82,7 @@ nav a {
 .carousel2-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
