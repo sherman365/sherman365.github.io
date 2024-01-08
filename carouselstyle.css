@@ -30,8 +30,9 @@ nav {
 
 nav a {
     margin: 0 10px;
+    font-size: 18px;
     text-decoration: none;
-    color: blue; /* Change this color to your desired one */
+    color: black; /* Change this color to your desired one */
     font-weight: bold;
 }
 
