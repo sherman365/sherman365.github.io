@@ -43,8 +43,8 @@ nav a {
 .carousel {
     position: relative;
     margin: auto;
-    width: 95%;
-    max-width: 1000px;
+    width: 90%;
+    max-width: 900px;
     overflow: hidden;
 }
 
@@ -107,8 +107,8 @@ nav a {
 .carousel2 {
     position: relative;
     margin: auto;
-    width: 95%;
-    max-width: 1000px;
+    width: 90%;
+    max-width: 900px;
     overflow: hidden;
 }
 
